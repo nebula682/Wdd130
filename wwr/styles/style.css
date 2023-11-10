@@ -338,6 +338,64 @@ nav {
          margin-top: 25px;
      }
  }
+ /* This the css file for the rating subpage*/
+ h1{
+     text-align: center;
+     margin-bottom: 20px;
+     
+
+
+
+ }
+ .rivers{
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: relative;
+     
+     
+     
+     
+     
+     
+     
+     
+
+
+
+ }
+ .text-box{
+     text-align: center;
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     color:white;
+
+     
+ }
+ 
+ .dam{
+     display: block;
+     width:50%;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ .text{
+     text-align: center;
+     text-shadow: 1px 1px white;
+     
+ 
+     
+ }
+
+ 
+ 
+ 
+ 
+
              
 
 
