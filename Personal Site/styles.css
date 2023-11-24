@@ -1,0 +1,173 @@
+#main-img{
+     width:100%;
+     height:auto;
+     border-radius: 5px;
+}
+
+
+h1{
+     text-align: center;
+     color:#284B63;
+     font-size: 50px;
+     font-weight: bold;     
+}
+
+
+body{
+     
+     color:#353535;
+     background-color:transparent;
+}
+
+nav{
+     display: flex;
+     justify-content: space-around;
+     color:white;
+}
+nav a{
+     text-align: center;
+     padding:15px;
+     color:white;
+     border-radius: 5%;
+     
+     
+     text-decoration: none;
+     color:white;
+     font-size: 18px;
+}
+nav a:hover
+{
+     background-color:white;
+     text-decoration: underline;
+     color:black;
+     transition: 3s;
+     background:white;
+     
+     
+}
+
+
+header{
+     display:grid;
+     grid-template-columns: 150px auto;
+     background-color:#07beac;
+     padding:25px;
+     text-align: center;
+     font-size: 15px;
+     border-radius: 2px;
+     height: auto;
+     width: 100%;
+
+     
+}
+p{
+     display:inline-block;
+     font-family: Roboto Condensed;
+     text-decoration-color:#353535;
+     
+     font-size: 18px;
+     
+     
+
+}
+.first{
+     
+     text-align:justify;
+     color:#353535;
+     width:550px;
+     font-size: 27px;
+     padding:15px;
+     margin: 1%;
+     margin-right: auto;    
+}
+
+
+.second{
+     text-align: justify;
+     color:#353535;
+     width:550px;
+     font-size: 27px;
+     padding:20px;
+     margin-top: 1%;
+     font-weight: 100;
+     margin-left: auto;
+}
+
+
+#bottom-img{
+     width:100%;
+     height:auto;
+     border-radius: 5px;
+}
+.button {
+     background-color: #07beac;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline;
+     font-size: 16px;
+     border-radius: 10px;
+     margin: 30px;
+   }
+   .button:hover{
+     
+     text-decoration: underline;
+     color:#353535;
+     transition: 3s;
+   }
+
+
+   .b{
+     text-align: center;
+   }
+
+
+
+   footer{
+     background-color:#07beac;
+     color: white;
+     padding: 30px 50px;
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     
+     margin-top: 150px;
+     border-radius: 2px;
+     height: auto;
+   }
+   .subtitle{
+     font-size: 40px;
+     font-weight: bold;
+     text-align: left;
+     color:#284B63;
+     text-decoration: dotted;
+     margin-left: 20px;
+     
+   }
+   footer a
+   {
+        color: white;
+        text-decoration: none;
+   }
+   footer a:hover
+   {
+        color: black;
+        transition: 3s;
+   }
+   section ,aside{
+     float:left;
+     width: 46%;
+
+
+   }
+   
+
+
+
+
+
+
+
+
