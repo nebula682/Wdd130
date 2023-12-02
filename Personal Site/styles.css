@@ -22,6 +22,7 @@ body{
      
      color:#353535;
      background-color:transparent;
+     margin: 0;
 }
 
 nav{
@@ -55,7 +56,7 @@ nav a:hover
 header{
      display:grid;
      grid-template-columns: 150px auto;
-     background-color:rgb(16, 84, 12);
+     background-color:#07beac;
      padding:25px;
      text-align: center;
      font-size: 15px;
@@ -66,8 +67,8 @@ header{
      
 }
 p{
-     display:inline-block;
-     font-family: Roboto Condensed;
+  
+     font-family: "Roboto Condensed";
      text-decoration-color:#353535;
      
      font-size: 18px;
@@ -83,7 +84,8 @@ p{
      font-size: 27px;
      padding:15px;
      margin: 1%;
-     margin-right: auto;    
+     margin-right: auto;
+     float:left;    
 }
 
 
@@ -96,6 +98,7 @@ p{
      margin-top: 1%;
      font-weight: 100;
      margin-left: auto;
+     float: right;
 }
 
 
@@ -105,7 +108,7 @@ p{
      border-radius: 5px;
 }
 .button {
-     background-color: rgb(16, 84, 12);
+     background-color: #07beac;
      border: none;
      color: white;
      padding: 15px 32px;
@@ -131,7 +134,7 @@ p{
 
 
    footer{
-     background-color:rgb(16, 84, 12);
+     background-color:#07beac;
      color: white;
      padding: 30px 50px;
      display:flex;
@@ -178,40 +181,61 @@ p{
    #big-img{
      float:left;
      margin-top: 0;
-     
-     width:49.33%;
+     margin-bottom: 100px;
+     border-radius: 5px;
+     width:49.5%;
    }
    #service-img{
      float: right;
-     width:49.33%;
+     width:49.5%;
      margin-top: 0;
+     margin-bottom: 100px;
+     border-radius: 5px;
    }
    .bottom-img{
      width: 100%;
      height: auto;
    }
-   .first p{
-     text-align:justify;
-     color:#353535;
-     width:600px;
-     font-size: 20px;
-     padding:15px;
-     margin: 1%;
-     margin-right: 50px;
-     float: left;
+  
 
-   }
-   .second p{
-     text-align:end;
+   .left{
+     margin: 0;
+     display: inline;
+     font-family:"Roboto Condensed" ;
+     float: left;
      color: #353535;
+     font-size: 25px;
+     text-align: justify;
+     padding:0 50px;
      
-     padding: 15px;
-     margin-right: auto;
-     margin: 1%;
-     float: right;
    }
+   .right{
+     margin: 0;
+     display: block;
+     margin-right: 30px;
+     font-family: "Roboto Condensed";
+     
+     
+     font-size: 25px;
+     color: #353535;
+     text-align: justify;
+     padding: 0 50px;
+     
+ }
+
+     
+     
+
+
+   
+   
+   
+   
+     
+       
+   
    .buton {
-     background-color: rgb(16, 84, 12);
+     background-color: #07beb8;
      border: none;
      color: white;
      padding: 15px 32px;
@@ -234,8 +258,9 @@ p{
      text-align: center;
    }
    footer{
-     margin-top: 15px;
+     margin-top: 50px;
    }
+   
    
    
 
