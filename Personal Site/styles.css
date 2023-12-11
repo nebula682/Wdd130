@@ -1,3 +1,8 @@
+*{
+     box-sizing: border-box;
+     
+     
+}
 #main-img{
      width:100%;
      height:auto;
@@ -6,6 +11,7 @@
 }
 body{
      margin:0;
+     
 
 }
 
@@ -14,7 +20,10 @@ h1{
      text-align: center;
      color:#284B63;
      font-size: 50px;
-     font-weight: bold;     
+     font-weight: bold;
+     font-family: "Julius Sans One";
+     
+          
 }
 
 
@@ -171,23 +180,16 @@ p{
 
    }
    /* css for the subpage */
-
-
-
-
-
-
-
    #big-img{
      float:left;
      margin-top: 0;
      margin-bottom: 100px;
      border-radius: 5px;
-     width:49.5%;
+     width:49.9%;
    }
    #service-img{
      float: right;
-     width:49.5%;
+     width:49.9%;
      margin-top: 0;
      margin-bottom: 100px;
      border-radius: 5px;
@@ -222,19 +224,7 @@ p{
      padding: 0 50px;
      
  }
-
-     
-     
-
-
-   
-   
-   
-   
-     
-       
-   
-   .buton {
+.buton {
      background-color: #07beb8;
      border: none;
      color: white;
@@ -260,6 +250,86 @@ p{
    footer{
      margin-top: 50px;
    }
+   /* css for the second subpage*/
+   .but{
+
+     background-color: #07beb8;
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline;
+     font-size: 16px;
+     border-radius: 10px;
+     margin: 30px;
+
+   }
+   .d{
+     text-align: center;
+   }
+   .but:hover{
+     text-decoration: underline;
+     color: #353535;
+     transition:3s;
+   }
+
+   .container {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    bottom: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color:white; 
+    padding: 10px 20px; 
+    font-size: 50px; 
+    text-align: center;
+    font-family: "Julius Sans One";
+  }
+  .paragraph{
+    font-family: "Roboto Condensed";
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+    footer{
+      width: 100%;
+    }
+  .paragraph p{
+    padding:30px;
+    font-size: 22px;
+    line-height: normal;
+    border: 1px solid #353535;
+    text-align: justify;
+  }
+
+
+
+
+
+
+
+
+
+     
+     
+   
+   
+   
+   
+   
+   
+
+   
+   
+
    
    
    
