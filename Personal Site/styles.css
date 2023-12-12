@@ -120,7 +120,7 @@ p{
 .button {
      background-color: #07beac;
      border: none;
-     color: white;
+     color: #ffffff;
      padding: 15px 32px;
      text-align: center;
      text-decoration: none;
@@ -145,7 +145,7 @@ p{
 
    footer{
      background-color:#07beac;
-     color: white;
+     color: #ffffff;
      padding: 30px 50px;
      display:flex;
      justify-content: space-around;
@@ -166,7 +166,7 @@ p{
    }
    footer a
    {
-        color: white;
+        color: #ffffff;
         text-decoration: none;
    }
    footer a:hover
@@ -229,7 +229,7 @@ p{
 .buton {
      background-color: #07beac;
      border: none;
-     color: white;
+     color:#ffffff;
      padding: 15px 32px;
      text-align: center;
      text-decoration: none;
@@ -257,7 +257,7 @@ p{
 
      background-color: #07beac;
      border: none;
-     color: white;
+     color: #ffffff;
      padding: 15px 32px;
      text-align: center;
      text-decoration: none;
@@ -289,7 +289,7 @@ p{
     bottom: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-    color:#fff; 
+    color:#ffffff; 
     padding: 10px 20px; 
     font-size: 50px; 
     text-align: center;
