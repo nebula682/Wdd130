@@ -210,6 +210,8 @@ p{
      font-size: 25px;
      text-align: justify;
      padding:0 50px;
+     line-height: 40px;
+     
      
    }
    .right{
@@ -217,16 +219,15 @@ p{
      display: block;
      margin-right: 30px;
      font-family: "Roboto Condensed";
-     
-     
      font-size: 25px;
      color: #353535;
      text-align: justify;
      padding: 0 50px;
+     line-height: 40px;
      
  }
 .buton {
-     background-color: #07beb8;
+     background-color: #07beac;
      border: none;
      color: white;
      padding: 15px 32px;
@@ -254,7 +255,7 @@ p{
    /* css for the second subpage*/
    .but{
 
-     background-color: #07beb8;
+     background-color: #07beac;
      border: none;
      color: white;
      padding: 15px 32px;
@@ -288,7 +289,7 @@ p{
     bottom: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
-    color:white; 
+    color:#fff; 
     padding: 10px 20px; 
     font-size: 50px; 
     text-align: center;
@@ -297,20 +298,18 @@ p{
   }
   .paragraph{
     font-family: "Roboto Condensed";
-    margin-top: 50px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: auto auto auto;
-    line-height: 20px;
+    line-height: 35px;
   }
-    footer{
-      width: 100%;
-    }
+  
   .paragraph p{
     padding:30px;
     font-size: 22px;
-    line-height: normal;
-    border: 1px solid #353535;
+    line-height: 35px;
     text-align: justify;
+    border:1px solid #353535;
   }
 
 
